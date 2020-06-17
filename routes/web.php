@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::resource('livro', 'LivroController');
+Route::resource('livro_emprestado', 'Livro_emprestadoController');
+Route::resource('permissao', 'PermissaoController');
+Route::resource('permissao_role', 'Permissao_roleController');
+Route::resource('role', 'RoleController');
+Route::resource('usuario_role', 'Usuario_roleController');
+Route::resource('user', 'UserController');
