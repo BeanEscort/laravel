@@ -14,7 +14,7 @@ class PermissaoController extends Controller
    */
   public function index()
   {
-    
+    return view('permissoes');
   }
 
   /**

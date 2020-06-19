@@ -1,3 +1,6 @@
+
+@section('content')
+
 {!! Form::open(array('route' => 'route.name', 'method' => 'POST')) !!}
 	<ul>
 		<li>
@@ -17,3 +20,5 @@
 		</li>
 	</ul>
 {!! Form::close() !!}
+	
+@endsection
